@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <h1 class="center">Tic Tac Toe</h1>
+  <h2 class="center">Let's Play!</h1>
+  <!-- Form to take in players names -->
+  <form id="form" class="center">
+    <section class="pb-10">
+      <label for="firstPlayerName">Player1 Name:</label>
+      <input type="text" id="firstPlayerName" name="player1">
+    </section>
+    <section class="pb-10">
+      <label for="secondPlayerName">Player2 Name:</label>
+      <input type="text" id="secondPlayerName" name="player2">
+    </section>
+    <button>Start</button>
+  </form>
+    
+  <!-- It's player's name turn -->
+  <h5 id="current-player" class="center"></h3>
+  <!-- Add click event to populate the img tag source attribute and track the matrix of winning possibilities -->
+
+  <div class="container">
+    <div id="1" class="col square">
+    </div>
+    <div id="2" class="col square">
+    </div>
+    <div id="3" class="col square">
+    </div>
+    <div id="4" class="col square">
+    </div>
+    <div id="5" class="col square">
+    </div>
+    <div id="6" class="col square">
+    </div>
+    <div id="7" class="col square">
+    </div>
+    <div id="8" class="col square">
+    </div>
+    <div id="9" class="col square">
+    </div>
+  </div>
+
+
+  <!-- Start game button -->
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script defer src="js/main.js" type="module"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
