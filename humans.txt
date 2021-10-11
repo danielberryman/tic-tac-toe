@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Daniel Berryman -- Developer
 
 # THANKS
 
-    <name>
+    My sons for inspiring me to make games they could play.
 
 # TECHNOLOGY COLOPHON
 
